@@ -1,8 +1,0 @@
-D:\Study\c#\24_09_09_asztali\szinezo\szinezo\bin\Debug\szinezo.exe.config
-D:\Study\c#\24_09_09_asztali\szinezo\szinezo\bin\Debug\szinezo.exe
-D:\Study\c#\24_09_09_asztali\szinezo\szinezo\bin\Debug\szinezo.pdb
-D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.csproj.AssemblyReference.cache
-D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.csproj.SuggestedBindingRedirects.cache
-D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.csproj.CoreCompileInputs.cache
-D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.exe
-D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.pdb
