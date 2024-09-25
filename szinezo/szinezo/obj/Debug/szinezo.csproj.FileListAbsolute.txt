@@ -1,0 +1,26 @@
+D:\Study\c#\24_09_09_asztali\szinezo\szinezo\bin\Debug\szinezo.exe.config
+D:\Study\c#\24_09_09_asztali\szinezo\szinezo\bin\Debug\szinezo.exe
+D:\Study\c#\24_09_09_asztali\szinezo\szinezo\bin\Debug\szinezo.pdb
+D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.csproj.AssemblyReference.cache
+D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.csproj.SuggestedBindingRedirects.cache
+D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.csproj.CoreCompileInputs.cache
+D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.exe
+D:\Study\c#\24_09_09_asztali\szinezo\szinezo\obj\Debug\szinezo.pdb
+<<<<<<< HEAD
+C:\Users\M.A\Source\Repos\MichelAndras\c-\szinezo\szinezo\bin\Debug\szinezo.exe.config
+C:\Users\M.A\Source\Repos\MichelAndras\c-\szinezo\szinezo\bin\Debug\szinezo.exe
+C:\Users\M.A\Source\Repos\MichelAndras\c-\szinezo\szinezo\bin\Debug\szinezo.pdb
+C:\Users\M.A\Source\Repos\MichelAndras\c-\szinezo\szinezo\obj\Debug\szinezo.csproj.AssemblyReference.cache
+C:\Users\M.A\Source\Repos\MichelAndras\c-\szinezo\szinezo\obj\Debug\szinezo.csproj.SuggestedBindingRedirects.cache
+C:\Users\M.A\Source\Repos\MichelAndras\c-\szinezo\szinezo\obj\Debug\szinezo.csproj.CoreCompileInputs.cache
+C:\Users\M.A\Source\Repos\MichelAndras\c-\szinezo\szinezo\obj\Debug\szinezo.exe
+C:\Users\M.A\Source\Repos\MichelAndras\c-\szinezo\szinezo\obj\Debug\szinezo.pdb
+=======
+C:\Users\michel.andras.zoltan\Downloads\szinezo\szinezo\szinezo\bin\Debug\szinezo.exe.config
+C:\Users\michel.andras.zoltan\Downloads\szinezo\szinezo\szinezo\bin\Debug\szinezo.exe
+C:\Users\michel.andras.zoltan\Downloads\szinezo\szinezo\szinezo\bin\Debug\szinezo.pdb
+C:\Users\michel.andras.zoltan\Downloads\szinezo\szinezo\szinezo\obj\Debug\szinezo.csproj.AssemblyReference.cache
+C:\Users\michel.andras.zoltan\Downloads\szinezo\szinezo\szinezo\obj\Debug\szinezo.csproj.CoreCompileInputs.cache
+C:\Users\michel.andras.zoltan\Downloads\szinezo\szinezo\szinezo\obj\Debug\szinezo.exe
+C:\Users\michel.andras.zoltan\Downloads\szinezo\szinezo\szinezo\obj\Debug\szinezo.pdb
+>>>>>>> 3795729b58a05af4404ba69665e54c74dba90b17
