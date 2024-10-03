@@ -53,7 +53,7 @@ namespace szinezo
 
 
                 DrawBorder();
-
+                
                 do
                 {
                     key = Console.ReadKey(true).Key;
