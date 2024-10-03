@@ -35,13 +35,14 @@ namespace szinezo
                 Console.Write("╔" + new string('═', Console.WindowWidth - 2) + "╗");
 
                 // Draw sides
-                for (int i = 0; i < Console.WindowWidth - 2; i++)
+                for (int i = 1; i < Console.WindowHeight - 2; i++)
                 {
                     Console.Write("║" + new string(' ', Console.WindowWidth - 2) + "║");
                 }
 
                 // Draw bottom border
                 Console.Write("╚" + new string('═', Console.WindowWidth - 2) + "╝");
+                Console.SetCursorPosition(0, 0);
             }
             
             static void Main()
