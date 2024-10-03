@@ -28,6 +28,7 @@ namespace szinezo
                 Console.Write($"Current Color: {currentColor}, Current Char: {currentChar}   ");
                 Console.SetCursorPosition(cursorX, cursorY);
             }
+            /*
             static void DrawBorder(int width, int height)
             {
                 // Draw top border
@@ -42,6 +43,7 @@ namespace szinezo
                 // Draw bottom border
                 Console.WriteLine("╚" + new string('═', width - 2) + "╝");
             }
+            */
             static void Main()
             {
                 ConsoleKey key;
@@ -49,7 +51,7 @@ namespace szinezo
                 DrawCursor();
 
 
-                DrawBorder(20, 10);
+                //DrawBorder(20, 10);
 
                 do
                 {
@@ -125,16 +127,16 @@ namespace szinezo
                         break;
                     */
 
-                        case ConsoleKey.D1:
+                        case ConsoleKey.F1:
                             currentChar = '█';
                             break;
-                        case ConsoleKey.D2:
+                        case ConsoleKey.F2:
                             currentChar = '▓';
                             break;
-                        case ConsoleKey.D3:
+                        case ConsoleKey.F3:
                             currentChar = '▒';
                             break;
-                        case ConsoleKey.D4:
+                        case ConsoleKey.F4:
                             currentChar = '░';
                             break;
 
