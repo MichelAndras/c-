@@ -28,22 +28,22 @@ namespace szinezo
                 Console.Write($"Current Color: {currentColor}, Current Char: {currentChar}   ");
                 Console.SetCursorPosition(cursorX, cursorY);
             }
-            /*
-            static void DrawBorder(int width, int height)
+            
+            static void DrawBorder()
             {
                 // Draw top border
-                Console.WriteLine("╔" + new string('═', width - 2) + "╗");
+                Console.Write("╔" + new string('═', Console.WindowWidth - 2) + "╗");
 
                 // Draw sides
-                for (int i = 0; i < height - 2; i++)
+                for (int i = 0; i < Console.WindowWidth - 2; i++)
                 {
-                    Console.WriteLine("║" + new string(' ', width - 2) + "║");
+                    Console.Write("║" + new string(' ', Console.WindowWidth - 2) + "║");
                 }
 
                 // Draw bottom border
-                Console.WriteLine("╚" + new string('═', width - 2) + "╝");
+                Console.Write("╚" + new string('═', Console.WindowWidth - 2) + "╝");
             }
-            */
+            
             static void Main()
             {
                 ConsoleKey key;
@@ -51,7 +51,7 @@ namespace szinezo
                 DrawCursor();
 
 
-                //DrawBorder(20, 10);
+                DrawBorder();
 
                 do
                 {
