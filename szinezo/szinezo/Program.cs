@@ -44,16 +44,115 @@ namespace szinezo
                 Console.Write("╚" + new string('═', Console.WindowWidth - 2) + "╝");
                 Console.SetCursorPosition(0, 0);
             }
-            
+            static string[] buttons = { "Mentés", "Szerkeztés", "Törlés", "Kilépés" };
+
+            static int selectedButtons = 0;
+            static void DrawButtons()
+            {
+                
+
+
+                int buttonWidth = 14;
+                int buttonHeight = 4;
+                int verticalSpacing = 2;
+
+                int startX = (Console.WindowWidth - buttonWidth) / 2;
+                int startY = (Console.WindowHeight - (buttons.Length * (buttonHeight + verticalSpacing))) / 2;
+
+                for (int i = 0; i < buttons.Length; i++)
+                {
+                    int buttonPosY = startY + i * (buttonHeight + verticalSpacing);
+
+                    Console.SetCursorPosition(startX, buttonPosY);
+                    Console.Write('╔');
+                    for (int j = 1; j <= buttonWidth - 2; j++)
+                    {
+                        Console.Write('═');
+                    }
+                    Console.Write('╗');
+
+                    Console.SetCursorPosition(startX, buttonPosY + 1);
+                    Console.Write('║');
+                    
+                     if (i  == selectedButtons)
+                        {
+                            Console.BackgroundColor = ConsoleColor.Gray;
+                            Console.ForegroundColor = ConsoleColor.Black;
+                        }
+                        else
+                        {
+                            Console.ResetColor();
+                        }
+                        
+                    int textPadding = (buttonWidth - buttons[i].Length - 2) / 2;
+                    Console.Write(new string(' ', textPadding) + buttons[i] + new string(' ', buttonWidth - buttons[i].Length - 2 - textPadding));
+                    Console.ResetColor();
+                    Console.Write('║');
+
+                    Console.SetCursorPosition(startX, buttonPosY + 2);
+                    Console.Write('╚');
+                    for (int j = 1; j <= buttonWidth - 2; j++)
+                    {
+                        Console.Write('═');
+                    }
+                    Console.Write('╝');
+                }
+            }
+            static void NavigateButtons()
+            {
+                ConsoleKeyInfo buttonKey;
+                do
+                {
+                    DrawButtons();
+                    buttonKey = Console.ReadKey(true);
+                    if (buttonKey.Key == ConsoleKey.UpArrow)
+                    {
+                        selectedButtons = (selectedButtons - 1 + buttons.Length) % buttons.Length;
+                    }
+                    else if (buttonKey.Key == ConsoleKey.DownArrow)
+                    {
+                        selectedButtons = (selectedButtons + 1) % buttons.Length;
+                    }
+                    else if (buttonKey.Key == ConsoleKey.Enter)
+                    {
+                        ButtonHandle(selectedButtons);
+                    }
+                    else if (buttonKey.Key == ConsoleKey.Escape)
+                    {   
+                        break;
+                    }
+                } while (true);
+            }
+
+            static void ButtonHandle(int buttonIndex)
+            {
+                switch (buttonIndex)
+                {
+                    case 0:
+                        // Handle "Létrehozás" button click
+                        break;
+                    case 1:
+                        // Handle "Módosítás" button click
+                        break;
+                    case 2:
+                        // Handle "Törlés" button click
+                        break;
+                    case 3:
+                        // Handle "Kilépés" button click
+                        break;
+                }
+            }
+
             static void Main()
             {
                 ConsoleKey key;
                 Console.Clear();
                 DrawCursor();
-
+                
 
                 DrawBorder();
-                
+                DrawButtons();
+                NavigateButtons();
                 do
                 {
                     key = Console.ReadKey(true).Key;
